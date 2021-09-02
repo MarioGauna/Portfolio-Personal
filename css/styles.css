@@ -423,6 +423,26 @@ textarea::placeholder {
 .linkedin-social {
   content: url(../image/linkedin.png); }
 
+.mant {
+  display: block;
+  text-align: left;
+  height: 100vh;
+  width: 600px;
+  margin: 0 auto;
+  color: #fff;
+  font-family: "Poppins", sans-serif; }
+  .mant .mant__title {
+    font-size: 50px;
+    font-weight: bold; }
+  .mant .mant__text {
+    font-size: 20px; }
+  .mant .mant__firma {
+    font-size: 30px; }
+  .mant .mant__link {
+    color: #fff; }
+  .mant .mant__link:hover {
+    color: #dc143c; }
+
 @media only screen and (max-width: 1024px) {
   .cont__princ .cont__sec1 {
     grid-area: 1/1/4/7;

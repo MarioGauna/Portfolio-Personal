@@ -575,6 +575,35 @@ textarea::placeholder{
     }
 }
 
+// MANTENIMIENTO
+
+.mant { 
+    display: block; 
+    text-align: left; 
+    height: 100vh;
+    width: 600px; 
+    margin: 0 auto;
+    color: #fff;
+    font-family: $titlefont;
+    .mant__title{
+        font-size: 50px;
+        font-weight: bold;
+    }
+    .mant__text{
+        font-size: 20px;
+    }
+    .mant__firma{
+        font-size: 30px;
+    }
+    .mant__link{
+        color: #fff;
+    }
+    .mant__link:hover{
+        color: $crimson;
+    }
+        
+}
+
 // MEDIA QUERY
 
 // QUERY INDEX
