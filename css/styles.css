@@ -237,7 +237,7 @@
   font-size: 18px; }
 
 .cont__row {
-  height: 80vh; }
+  height: auto; }
 
 .cont__text {
   font-family: "Poppins", sans-serif;
@@ -320,7 +320,7 @@
   display: none; }
 
 .cont__row1 {
-  height: 80vh; }
+  height: auto; }
 
 .dat {
   margin-top: 5%; }
