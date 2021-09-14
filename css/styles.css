@@ -281,7 +281,7 @@
     transform: translateX(8px) translateY(8px); } }
 
 .imgrow {
-  height: 70vh; }
+  height: auto; }
 
 .imgrow__item {
   height: 200px;
@@ -299,10 +299,10 @@
   width: 300px; }
 
 .contImg {
-  height: 70vh; }
+  height: auto; }
 
 .text1 {
-  height: 10vh; }
+  height: auto; }
 
 .image:hover {
   box-shadow: 0px 0px 5px 5px #fff; }
