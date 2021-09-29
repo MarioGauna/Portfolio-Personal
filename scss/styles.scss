@@ -44,9 +44,7 @@ $crimson: #dc143c;
 
 // INDEX
 
-.cont{
-    height:auto;
-}
+
 
 .cont__princ {
     display: grid;
@@ -88,17 +86,29 @@ $crimson: #dc143c;
 
 // HABILIDADES
 
+
 .cont__bar{
     height: 250px;
     width: 400px;
-    margin: 20px;
+    padding: 0px;
+    margin: 0px 20px 0px 20px;
     place-self: center;
     background-color: rgba(255, 255, 255, 0.050);
+}
+
+.cont__text--4{
+    margin: 0px;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .prog{
     font-family: $titlefont;
     font-size: 30px;
+}
+
+.circle{
+    padding: 0px;
 }
 
 // ANIMACIÓN DE PORCENTAJE
@@ -111,6 +121,7 @@ $crimson: #dc143c;
     border-radius: 50%;
     p{
         color: #000;
+        font-size: 40px;
     }
 }
 
@@ -334,11 +345,6 @@ $crimson: #dc143c;
     color: #000;
 }
 
-.cont__text--4{
-    margin: 0;
-    font-size: 18px;
-}
-
 // SERVICIOS
 
 .cont__row{
@@ -346,6 +352,11 @@ $crimson: #dc143c;
 }
 
 .cont__text{
+    font-family: $titlefont;
+    color:#fff;
+}
+
+.cont__text--5{
     font-family: $titlefont;
     margin-left: 30px;
     margin-right: 30px;
@@ -369,6 +380,7 @@ $crimson: #dc143c;
     .cont__text--3{
         font-weight: bold;
         margin-top: 20px;
+        margin-left: 30px;
         margin-bottom: 0;
     }
 }
@@ -456,6 +468,7 @@ $crimson: #dc143c;
 
 .cont__row1{
     height: auto;
+    margin: 40px 0px 40px 0px;
 }
 
 .dat{
@@ -651,6 +664,13 @@ textarea::placeholder{
 }
 
 // QUERY HABILIDADES
+
+@media only screen and (max-width:768px){
+    
+    .cont__bar{
+        margin-bottom: 40px;
+    }
+}
 
 
 // QUERY SERVICIOS

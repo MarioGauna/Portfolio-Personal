@@ -27,9 +27,6 @@
   .nav .nav__link:hover {
     background-position: bottom; }
 
-.cont {
-  height: auto; }
-
 .cont__princ {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -63,13 +60,22 @@
 .cont__bar {
   height: 250px;
   width: 400px;
-  margin: 20px;
+  padding: 0px;
+  margin: 0px 20px 0px 20px;
   place-self: center;
   background-color: rgba(255, 255, 255, 0.05); }
+
+.cont__text--4 {
+  margin: 0px;
+  font-size: 20px;
+  font-weight: bold; }
 
 .prog {
   font-family: "Poppins", sans-serif;
   font-size: 30px; }
+
+.circle {
+  padding: 0px; }
 
 .contCirc {
   width: 150px;
@@ -77,7 +83,8 @@
   background: #b8b8b8;
   border-radius: 50%; }
   .contCirc p {
-    color: #000; }
+    color: #000;
+    font-size: 40px; }
 
 .contCirc .circulo1 .mask1, .contCirc .circulo1 .fill1 {
   width: 150px;
@@ -232,14 +239,14 @@
   font-size: 2em;
   color: #000; }
 
-.cont__text--4 {
-  margin: 0;
-  font-size: 18px; }
-
 .cont__row {
   height: auto; }
 
 .cont__text {
+  font-family: "Poppins", sans-serif;
+  color: #fff; }
+
+.cont__text--5 {
   font-family: "Poppins", sans-serif;
   margin-left: 30px;
   margin-right: 30px;
@@ -261,6 +268,7 @@
   .cont__anima .cont__text--3 {
     font-weight: bold;
     margin-top: 20px;
+    margin-left: 30px;
     margin-bottom: 0; }
 
 @keyframes cont__anima {
@@ -320,7 +328,8 @@
   display: none; }
 
 .cont__row1 {
-  height: auto; }
+  height: auto;
+  margin: 40px 0px 40px 0px; }
 
 .dat {
   margin-top: 5%; }
@@ -464,6 +473,10 @@ textarea::placeholder {
     font-size: 24px; }
   .cont__texti .cont__tt--2 {
     font-size: 15px; } }
+
+@media only screen and (max-width: 768px) {
+  .cont__bar {
+    margin-bottom: 40px; } }
 
 @media only screen and (max-width: 768px) {
   .cont__row {
