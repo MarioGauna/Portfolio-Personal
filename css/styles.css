@@ -256,7 +256,7 @@ body {
   height: 250px;
   width: 350px;
   place-self: center;
-  margin: 40px 10px 40px 10px;
+  margin: 40px 0px 40px 0px;
   background-color: rgba(255, 255, 255, 0.05);
   text-align: justify;
   animation: cont__anima 1s cubic-bezier(0.455, 0.03, 0.515, 0.955) both; }
@@ -327,10 +327,6 @@ body {
 
 .cont_mob2 {
   display: none; }
-
-.cont__row1 {
-  height: auto;
-  margin: 40px 0px 40px 0px; }
 
 .dat {
   margin-top: 5%; }
