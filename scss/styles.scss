@@ -348,10 +348,6 @@ body{
 
 // SERVICIOS
 
-.cont__row{
-    height: auto;
-}
-
 .cont__text{
     font-family: $titlefont;
     color:#fff;
@@ -368,6 +364,7 @@ body{
     height: 250px;
     width: 350px;
     place-self: center;
+    margin: 40px 10px 40px 10px;
     background-color: rgba(255, 255, 255, 0.050);
     text-align: justify;
     animation: cont__anima 1s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
