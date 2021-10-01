@@ -466,6 +466,7 @@ body{
 
 .dat{
     margin-top: 5%;
+    padding: 0px;
     .contact{
         height: 64px;
         width: 64px;
@@ -473,10 +474,12 @@ body{
     .textCont2{
         margin-left: 10%;
         width: fit-content;
+        padding: 0px;
     }
     .datos{
         font-family: $titlefont;
         color: #fff;
+        padding: 0px;
     }
     .datos--2{
         font-size: 25px;
@@ -752,12 +755,18 @@ textarea::placeholder{
         display: inherit;
         width: 400px;
         height: fit-content;
-        margin: 50px 0 50px 0;
+        margin: 0px 0 50px 0;
     }
 
     .cont_mob2{
+        display: none;
+    }
+
+    .cont_mob3{
         display: inherit;
-        margin: 50px 0 50px 0;
+        width: 400px;
+        height: fit-content;
+        margin: 0px 0 50px 0;
     }
     
     .dat_full{
@@ -766,5 +775,40 @@ textarea::placeholder{
 
     .form_full{
         display: none;
+    }
+
+    .formCont{
+        //display: flex;
+        //flex-wrap: wrap;
+        //align-items: center;
+        //justify-content: space-around;
+        //height: 100%;
+        //width: 100%;
+        .onlyLine{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+    }
+
+    .insert{
+        margin-top: 20px;
+        width: 250px;
+        height: 50px;
+        color: #fff;
+        border: none;
+        font-family: $titlefont;
+        box-shadow: 0px 0px 5px 3px rgba(83, 83, 83, 0.7);
+        background-color: #000;
+    }
+    
+    .mensaje{
+        margin-top: 50px;
+        width: 250px;
+        color: #fff;
+        background-color: #000;
+        border: none;
+        font-family: $titlefont;
+        box-shadow: 0px 0px 5px 3px rgba(83, 83, 83, 0.7);
     }
 }

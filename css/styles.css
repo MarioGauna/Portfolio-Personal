@@ -330,16 +330,19 @@ body {
   display: none; }
 
 .dat {
-  margin-top: 5%; }
+  margin-top: 5%;
+  padding: 0px; }
   .dat .contact {
     height: 64px;
     width: 64px; }
   .dat .textCont2 {
     margin-left: 10%;
-    width: fit-content; }
+    width: fit-content;
+    padding: 0px; }
   .dat .datos {
     font-family: "Poppins", sans-serif;
-    color: #fff; }
+    color: #fff;
+    padding: 0px; }
   .dat .datos--2 {
     font-size: 25px; }
   .dat .datos--3 {
@@ -523,11 +526,36 @@ textarea::placeholder {
     display: inherit;
     width: 400px;
     height: fit-content;
-    margin: 50px 0 50px 0; }
+    margin: 0px 0 50px 0; }
   .cont_mob2 {
+    display: none; }
+  .cont_mob3 {
     display: inherit;
-    margin: 50px 0 50px 0; }
+    width: 400px;
+    height: fit-content;
+    margin: 0px 0 50px 0; }
   .dat_full {
     display: none; }
   .form_full {
-    display: none; } }
+    display: none; }
+  .formCont .onlyLine {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; }
+  .insert {
+    margin-top: 20px;
+    width: 250px;
+    height: 50px;
+    color: #fff;
+    border: none;
+    font-family: "Poppins", sans-serif;
+    box-shadow: 0px 0px 5px 3px rgba(83, 83, 83, 0.7);
+    background-color: #000; }
+  .mensaje {
+    margin-top: 50px;
+    width: 250px;
+    color: #fff;
+    background-color: #000;
+    border: none;
+    font-family: "Poppins", sans-serif;
+    box-shadow: 0px 0px 5px 3px rgba(83, 83, 83, 0.7); } }
