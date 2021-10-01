@@ -499,6 +499,8 @@ textarea::placeholder {
     align-items: center; } }
 
 @media only screen and (max-width: 1024px) {
+  .altura {
+    min-height: auto; }
   .cont_mob {
     display: inherit; }
   .cont_mob1 {
