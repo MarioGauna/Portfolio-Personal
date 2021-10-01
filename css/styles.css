@@ -498,8 +498,6 @@ textarea::placeholder {
     align-items: center; } }
 
 @media only screen and (max-width: 1024px) {
-  .cont__row1 {
-    height: auto; }
   .cont_mob {
     display: inherit; }
   .cont_mob1 {
@@ -516,8 +514,6 @@ textarea::placeholder {
     display: none; } }
 
 @media only screen and (max-width: 768px) {
-  .cont__row1 {
-    height: auto; }
   .cont_mob {
     display: inherit; }
   .cont_mob1 {
