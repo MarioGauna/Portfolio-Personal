@@ -411,13 +411,10 @@ body{
 
 // PORTFOLIO
 
-.imgrow{
-    height: auto;
-}
-
 .imgrow__item{
     height: 200px;
     width: 300px;
+    margin: 40px 0px 40px 0px;
     place-self: center;
     outline: 2px solid #fff;
     &:hover{
@@ -452,6 +449,9 @@ body{
 
 // CONTACTAME
 
+.cont__row1{
+    margin: 40px 0px 40px 0px;
+}
 .cont_mob{
     display: none;
 }

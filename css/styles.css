@@ -289,12 +289,10 @@ body {
     box-shadow: -1px -1px #3e3e3e, -2px -2px #3e3e3e, -3px -3px #3e3e3e, -4px -4px #3e3e3e, -5px -5px #3e3e3e, -6px -6px #3e3e3e, -7px -7px #3e3e3e, -8px -8px #3e3e3e;
     transform: translateX(8px) translateY(8px); } }
 
-.imgrow {
-  height: auto; }
-
 .imgrow__item {
   height: 200px;
   width: 300px;
+  margin: 40px 0px 40px 0px;
   place-self: center;
   outline: 2px solid #fff; }
   .imgrow__item:hover {
@@ -318,6 +316,9 @@ body {
 
 #carouselExampleIndicators {
   display: none; }
+
+.cont__row1 {
+  margin: 40px 0px 40px 0px; }
 
 .cont_mob {
   display: none; }
