@@ -6,29 +6,32 @@ body {
   height: 100vh; }
 
 .inicio {
-  background-color: #000; }
+  background-color: #000;
+  padding: 0; }
   .inicio .container {
     background-color: #000;
-    height: auto; }
+    height: auto;
+    padding: 0; }
 
-.nav .nav__logo {
-  font-size: 50px;
-  font-weight: bold;
-  font-family: "Poppins", sans-serif; }
-
-.nav .nav__link {
-  text-decoration: none;
-  text-transform: uppercase;
-  font-family: "Poppins", sans-serif;
-  padding-top: 35px;
-  padding-bottom: 25px;
-  background: linear-gradient(to top, #dc143c 50%, rgba(0, 0, 0, 0) 50%);
-  background-size: 100% 200%;
-  background-position: top;
-  transition: all 0.2s;
-  width: max-content; }
-  .nav .nav__link:hover {
-    background-position: bottom; }
+.nav {
+  padding: 0; }
+  .nav .nav__logo {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif; }
+  .nav .nav__link {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    padding-top: 35px;
+    padding-bottom: 25px;
+    background: linear-gradient(to top, #dc143c 50%, rgba(0, 0, 0, 0) 50%);
+    background-size: 100% 200%;
+    background-position: top;
+    transition: all 0.2s;
+    width: max-content; }
+    .nav .nav__link:hover {
+      background-position: bottom; }
 
 .cont__princ {
   display: grid;
