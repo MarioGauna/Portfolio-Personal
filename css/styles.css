@@ -2,16 +2,11 @@
   margin: 0;
   padding: 0; }
 
-body {
-  height: 100vh; }
-
 .inicio {
-  background-color: #000;
-  padding: 0; }
+  background-color: #000; }
   .inicio .container {
     background-color: #000;
-    height: auto;
-    padding: 0; }
+    height: auto; }
 
 .nav {
   padding: 0; }
@@ -417,7 +412,7 @@ textarea::placeholder {
   padding-left: 10px; }
 
 .altura {
-  min-height: calc(100vh - 200px); }
+  min-height: calc(100vh - 185px); }
 
 .social__link {
   display: inline-block;

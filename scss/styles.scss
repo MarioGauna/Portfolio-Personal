@@ -8,18 +8,14 @@ $crimson: #dc143c;
     margin: 0;
     padding: 0;
 }
-body{
-    height: 100vh;
-}
+
 // NAVBAR
 
 .inicio{
     background-color: #000;
-    padding: 0;
     .container{
         background-color: #000;
         height: auto;
-        padding: 0;
     }
 }
 
@@ -573,7 +569,7 @@ textarea::placeholder{
 // FOOTER
 
 .altura{
-    min-height: calc(100vh - 200px);
+    min-height: calc(100vh - 185px);
 }
 .social__link{
     display: inline-block;
@@ -678,9 +674,7 @@ textarea::placeholder{
     }
 }
 
-
 // QUERY SERVICIOS
-
 
 @media only screen and (max-width:768px){
     
@@ -717,15 +711,11 @@ textarea::placeholder{
         display: flex;
         align-items: center;
     }
-    }
+}
 
 // QUERY CONTACTAME
 
 @media only screen and (max-width:1024px){
-
-    // .altura{
-    //     min-height: auto;
-    // }
 
     .cont_mob{
         display: inherit;
