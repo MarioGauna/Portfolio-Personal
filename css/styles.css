@@ -317,9 +317,6 @@ body {
 #carouselExampleIndicators {
   display: none; }
 
-.cont__row1 {
-  margin-top: 40px; }
-
 .cont_mob {
   display: none; }
 
@@ -327,6 +324,9 @@ body {
   display: none; }
 
 .cont_mob2 {
+  display: none; }
+
+.cont_mob3 {
   display: none; }
 
 .dat {
@@ -357,13 +357,15 @@ body {
     font-size: 35px;
     font-weight: bold; }
 
+.form_full {
+  margin-top: 5%;
+  padding: 0; }
+
 .formCont {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: space-around;
-  height: 100%;
-  width: 100%; }
+  justify-content: space-around; }
   .formCont .firstLine {
     display: flex;
     justify-content: space-between; }
@@ -502,29 +504,55 @@ textarea::placeholder {
     align-items: center; } }
 
 @media only screen and (max-width: 1024px) {
-  .altura {
-    min-height: auto; }
   .cont_mob {
     display: inherit; }
   .cont_mob1 {
     display: inherit;
-    width: 400px;
+    width: 480px;
     height: fit-content;
-    margin: 50px 0 50px 0; }
+    margin: 50px 0 50px 0;
+    padding: 0; }
   .cont_mob2 {
     display: inherit;
-    margin: 50px 0 50px 0; }
+    width: 480px;
+    height: fit-content;
+    margin: 50px 0 50px 0;
+    padding: 0; }
+  .padd {
+    padding: 0; }
   .dat_full {
     display: none; }
   .form_full {
-    display: none; } }
+    display: none; }
+  .insert {
+    margin: 10px;
+    width: 200px;
+    height: 50px;
+    color: #fff;
+    border: none;
+    font-family: "Poppins", sans-serif;
+    box-shadow: 0px 0px 5px 3px rgba(83, 83, 83, 0.7);
+    background-color: #000; }
+  .mensaje {
+    margin: 50px 10px 0px 10px;
+    width: 430px;
+    color: #fff;
+    background-color: #000;
+    border: none;
+    font-family: "Poppins", sans-serif;
+    box-shadow: 0px 0px 5px 3px rgba(83, 83, 83, 0.7); } }
 
 @media only screen and (max-width: 768px) {
+  .altura {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; }
+  .pilar {
+    justify-content: center; }
   .cont_mob {
     display: inherit; }
   .cont_mob1 {
     display: inherit;
-    width: 400px;
     height: fit-content;
     margin: 0px 0 50px 0; }
   .cont_mob2 {
@@ -541,7 +569,7 @@ textarea::placeholder {
   .formCont .onlyLine {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between; }
+    justify-content: center; }
   .insert {
     margin-top: 20px;
     width: 250px;
@@ -558,4 +586,17 @@ textarea::placeholder {
     background-color: #000;
     border: none;
     font-family: "Poppins", sans-serif;
-    box-shadow: 0px 0px 5px 3px rgba(83, 83, 83, 0.7); } }
+    box-shadow: 0px 0px 5px 3px rgba(83, 83, 83, 0.7); }
+  .boton {
+    margin-top: 50px;
+    width: 100px;
+    height: 35px; }
+    .boton input[type=submit] {
+      background-color: #dc143c;
+      cursor: pointer;
+      width: 100px;
+      height: 35px;
+      border: none;
+      font-size: 20px;
+      border-radius: 5px;
+      color: #fff; } }
