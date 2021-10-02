@@ -335,22 +335,27 @@
     width: 64px; }
   .dat .textCont2 {
     margin-left: 10%;
-    width: fit-content;
+    width: auto;
     padding: 0px; }
   .dat .datos {
     font-family: "Poppins", sans-serif;
     color: #fff;
     padding: 0px; }
   .dat .datos--2 {
-    font-size: 25px; }
+    font-size: 25px;
+    width: fit-content;
+    -moz-width: fit-content; }
   .dat .datos--3 {
     color: grey;
-    font-size: 20px; }
+    font-size: 20px;
+    width: fit-content;
+    -moz-width: fit-content; }
 
 .conTitle {
   display: flex;
   width: fit-content;
-  height: fit-content; }
+  height: fit-content;
+  justify-content: center; }
   .conTitle .datos--1 {
     font-size: 35px;
     font-weight: bold; }
@@ -383,6 +388,8 @@
 
 .mensaje {
   margin-top: 50px;
+  padding-left: 10px;
+  padding-top: 5px;
   width: 650px;
   color: #fff;
   background-color: #000;
@@ -409,6 +416,15 @@ input::placeholder {
 
 textarea::placeholder {
   padding-top: 5px;
+  padding-left: 10px; }
+
+input[type="text"] {
+  padding-left: 10px; }
+
+input[type="email"] {
+  padding-left: 10px; }
+
+input[type="tel"] {
   padding-left: 10px; }
 
 .altura {

@@ -471,7 +471,7 @@ $crimson: #dc143c;
     }
     .textCont2{
         margin-left: 10%;
-        width: fit-content;
+        width: auto;
         padding: 0px;
     }
     .datos{
@@ -481,10 +481,14 @@ $crimson: #dc143c;
     }
     .datos--2{
         font-size: 25px;
+        width: fit-content;
+        -moz-width: fit-content;
     }
     .datos--3{
         color: grey;
         font-size: 20px;
+        width: fit-content;
+        -moz-width: fit-content;
     }
 }
 
@@ -492,6 +496,7 @@ $crimson: #dc143c;
     display: flex;
     width: fit-content;
     height: fit-content;
+    justify-content: center;
     .datos--1{
         font-size: 35px;
         font-weight: bold;
@@ -533,6 +538,8 @@ $crimson: #dc143c;
 
 .mensaje{
     margin-top: 50px;
+    padding-left: 10px;
+    padding-top: 5px;
     width: 650px;
     color: #fff;
     background-color: #000;
@@ -565,6 +572,19 @@ textarea::placeholder{
     padding-top: 5px;
     padding-left: 10px;
 }
+
+input[type="text"] {
+    padding-left: 10px;
+}
+
+input[type="email"] {
+    padding-left: 10px;
+}
+
+input[type="tel"] {
+    padding-left: 10px;
+}
+
 
 // FOOTER
 
