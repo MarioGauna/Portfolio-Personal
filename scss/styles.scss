@@ -1,6 +1,10 @@
 // VARIABLES
 $titlefont: 'Poppins', sans-serif;
 $crimson: #dc143c;
+$bg-color: #000;
+$dot-color: #fff;
+$dot-size: 1px;
+$dot-space: 22px;
 
 // CSS RESET
 
@@ -9,12 +13,25 @@ $crimson: #dc143c;
     padding: 0;
 }
 
+// FONDO GENERAL
+
+body {
+	background:
+		linear-gradient(90deg, $bg-color ($dot-space - $dot-size), transparent 100%) center,
+		linear-gradient($bg-color ($dot-space - $dot-size), transparent 100%) center, $dot-color;
+	background-size: $dot-space $dot-space;
+}
+
+.altura{
+    min-height: calc(100vh - 185px);
+    border: solid 2px rgba(#fff, 0.02);
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
 // NAVBAR
 
 .inicio{
-    background-color: #000;
     .container{
-        background-color: #000;
         height: auto;
     }
 }
@@ -49,7 +66,10 @@ $crimson: #dc143c;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    grid-template-areas: "princ princ princ princ princ princ" "princ princ princ princ princ princ" "princ princ princ princ princ princ";
+    grid-template-areas: 
+    "princ princ princ princ princ princ" 
+    "princ princ princ princ princ princ" 
+    "princ princ princ princ princ princ";
     grid-area: princ;
     .cont__sec1{
         grid-area: 1/1/4/5;
@@ -81,6 +101,7 @@ $crimson: #dc143c;
 
 .cont__img{
     height: 80vh;
+    opacity: 0.5;
 }
 
 // HABILIDADES
@@ -92,12 +113,7 @@ $crimson: #dc143c;
     margin: 40px 10px 40px 10px;
     place-self: center;
     background-color: rgba(255, 255, 255, 0.050);
-}
-
-.cont__text--4{
-    margin: 0px;
-    font-size: 20px;
-    font-weight: bold;
+    box-shadow: 0px 0px 5px 1px rgba(255, 255, 255, 0.5);
 }
 
 .prog{
@@ -110,13 +126,14 @@ $crimson: #dc143c;
 }
 
 // ANIMACIÓN DE PORCENTAJE
-// Lineas 224 a 
+// Lineas 125 a 356
 
 .contCirc {
     width: 150px;
     height: 150px;
     background: #b8b8b8;
     border-radius: 50%;
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.5);
     p{
         color: #000;
         font-size: 40px;
@@ -341,6 +358,7 @@ $crimson: #dc143c;
     font-weight: 700;
     font-size: 2em;
     color: #000;
+    border: 2px solid rgb(0, 0, 0);
 }
 
 // SERVICIOS
@@ -362,7 +380,7 @@ $crimson: #dc143c;
     width: 350px;
     place-self: center;
     margin: 40px 0px 40px 0px;
-    background-color: rgba(255, 255, 255, 0.050);
+    background-color: rgba(43, 43, 43, 0.3);
     text-align: justify;
     animation: cont__anima 1s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
     .cont__icon{
@@ -513,8 +531,6 @@ $crimson: #dc143c;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
-
-
     .firstLine{
         display: flex;
         justify-content: space-between;
@@ -585,12 +601,8 @@ input[type="tel"] {
     padding-left: 10px;
 }
 
-
 // FOOTER
 
-.altura{
-    min-height: calc(100vh - 185px);
-}
 .social__link{
     display: inline-block;
     height: 64px;
