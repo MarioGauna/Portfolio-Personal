@@ -153,7 +153,7 @@ body {
 }
 
 // ANIMACIÓN DE PORCENTAJE
-// Lineas 125 a 356
+// Lineas 158 a 389
 
 .contCirc {
     width: 150px;
@@ -475,7 +475,7 @@ body {
 }
 
 .imgrow__item:hover{
-    transform: scale(2.0);
+    transform: scale(1.5);
 }
 
 .contImg{
@@ -758,10 +758,6 @@ input[type="tel"] {
     .line-break{
         display: none;
     }
-
-    .imgrow__item:hover{
-        transform: scale(1.5);
-    }
 }
 
 @media only screen and (max-width:768px){
@@ -792,7 +788,7 @@ input[type="tel"] {
     .altura{
         justify-content: center;
     }
-    
+
     .cont_mob1{
         display: inherit;
         width: 480px;

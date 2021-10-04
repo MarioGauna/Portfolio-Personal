@@ -332,7 +332,7 @@ body {
   transition: transform 1s; }
 
 .imgrow__item:hover {
-  transform: scale(2); }
+  transform: scale(1.5); }
 
 .contImg {
   height: auto; }
@@ -534,9 +534,7 @@ input[type="tel"] {
 
 @media only screen and (max-width: 1024px) {
   .line-break {
-    display: none; }
-  .imgrow__item:hover {
-    transform: scale(1.5); } }
+    display: none; } }
 
 @media only screen and (max-width: 768px) {
   .imgrow {
