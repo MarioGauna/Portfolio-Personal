@@ -25,7 +25,7 @@ body {
 .altura{
     min-height: calc(100vh - 185px);
     border: solid 2px rgba(#fff, 0.02);
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0,0.5);
 }
 
 // NAVBAR
@@ -105,7 +105,7 @@ body {
 }
 
 .text-typing {
-    width: fit-content;
+    display: inline-block;
 }
 
 .text-typing p {
@@ -471,6 +471,11 @@ body {
 .imgrow__pic{
     height: 200px;
     width: 300px;
+    transition: transform 1s;
+}
+
+.imgrow__item:hover{
+    transform: scale(2.0);
 }
 
 .contImg{
@@ -753,6 +758,10 @@ input[type="tel"] {
     .line-break{
         display: none;
     }
+
+    .imgrow__item:hover{
+        transform: scale(1.5);
+    }
 }
 
 @media only screen and (max-width:768px){
@@ -779,7 +788,11 @@ input[type="tel"] {
     .cont_mob{
         display: inherit;
     }
-
+    
+    .altura{
+        justify-content: center;
+    }
+    
     .cont_mob1{
         display: inherit;
         width: 480px;

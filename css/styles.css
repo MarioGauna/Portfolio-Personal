@@ -66,7 +66,7 @@ body {
   opacity: 0.5; }
 
 .text-typing {
-  width: fit-content; }
+  display: inline-block; }
 
 .text-typing p {
   margin: 0px;
@@ -328,7 +328,11 @@ body {
 
 .imgrow__pic {
   height: 200px;
-  width: 300px; }
+  width: 300px;
+  transition: transform 1s; }
+
+.imgrow__item:hover {
+  transform: scale(2); }
 
 .contImg {
   height: auto; }
@@ -530,7 +534,9 @@ input[type="tel"] {
 
 @media only screen and (max-width: 1024px) {
   .line-break {
-    display: none; } }
+    display: none; }
+  .imgrow__item:hover {
+    transform: scale(1.5); } }
 
 @media only screen and (max-width: 768px) {
   .imgrow {
@@ -544,6 +550,8 @@ input[type="tel"] {
 @media only screen and (max-width: 1024px) {
   .cont_mob {
     display: inherit; }
+  .altura {
+    justify-content: center; }
   .cont_mob1 {
     display: inherit;
     width: 480px;
